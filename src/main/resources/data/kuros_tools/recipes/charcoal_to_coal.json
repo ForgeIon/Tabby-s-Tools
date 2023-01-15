@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "kuros_tools:stone_dust"
+    },
+    "1": {
+      "item": "minecraft:charcoal"
+    },
+    "2": {
+      "item": "kuros_tools:stone_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

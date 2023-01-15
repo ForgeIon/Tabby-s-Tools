@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kuros_tools:obsidian_hammer"
+    },
+    {
+      "item": "minecraft:gold_ore"
+    }
+  ],
+  "result": {
+    "item": "kuros_tools:crushed_gold_ore",
+    "count": 4
+  }
+}

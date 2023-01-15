@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "kuros_tools:obsidian_hammer"
+    }
+  ],
+  "result": {
+    "item": "kuros_tools:crushed_emerald_ore",
+    "count": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "2": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "3": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "5": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:red_team_armor_boots",
+    "count": 1
+  }
+}

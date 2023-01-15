@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kuros_tools:emerald_shards"
+    },
+    {
+      "item": "kuros_tools:emerald_shards"
+    },
+    {
+      "item": "kuros_tools:emerald_shards"
+    },
+    {
+      "item": "kuros_tools:emerald_shards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 1
+  }
+}

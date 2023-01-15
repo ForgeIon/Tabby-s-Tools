@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "modifydata",
+    "permissionLevel": "3",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">Player</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">TargetedPlayer</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"number_min_max\"><field name=\"name\">CustomUpID</field><field name=\"min\">1</field><field name=\"max\">100000</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ModifyEntityDataProced</field></block></statement></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">Block</field><statement name=\"args\"><block type=\"blockpos\"><field name=\"name\">TargetedBlock</field><statement name=\"args\"><block type=\"number_min_max\"><field name=\"name\">CustomUpID</field><field name=\"min\">1</field><field name=\"max\">100000</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ModifyBlockDataProced</field></block></statement></block></statement></block></statement></block></next></block></next></block></xml>"
+  }
+}

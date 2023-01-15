@@ -1,0 +1,1808 @@
+{
+  "mod_elements": [
+    {
+      "name": "Separator",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "separator"
+    },
+    {
+      "name": "SeparatorGui",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "separator_gui"
+    },
+    {
+      "name": "CrushedIronOre",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_iron_ore"
+    },
+    {
+      "name": "StoneDust",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dust"
+    },
+    {
+      "name": "SeparatorProced",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "separator_proced",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe_recipe"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_recipe"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel_recipe"
+    },
+    {
+      "name": "ObsidianHammer",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hammer"
+    },
+    {
+      "name": "IronOreCrush",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_ore_crush"
+    },
+    {
+      "name": "ObsidianHammerRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hammer_recipe"
+    },
+    {
+      "name": "CrushedGoldOre",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_gold_ore"
+    },
+    {
+      "name": "GoldOreCrush",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ore_crush"
+    },
+    {
+      "name": "DiamondShards",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shards"
+    },
+    {
+      "name": "DiamondShardCombine",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shard_combine"
+    },
+    {
+      "name": "Rocks",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocks"
+    },
+    {
+      "name": "CombineRocks",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combine_rocks"
+    },
+    {
+      "name": "CombineStoneDust",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combine_stone_dust"
+    },
+    {
+      "name": "HammerFunction",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HammerRightClick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrushRocks",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crush_rocks"
+    },
+    {
+      "name": "CrushedDiamondOre",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_diamond_ore"
+    },
+    {
+      "name": "DiamondOreCrush",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ore_crush"
+    },
+    {
+      "name": "SeparatorRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "separator_recipe"
+    },
+    {
+      "name": "CrushedEmeraldOre",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_emerald_ore"
+    },
+    {
+      "name": "EmeraldShards",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shards"
+    },
+    {
+      "name": "EmeraldOreCrush",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_ore_crush"
+    },
+    {
+      "name": "EmeraldShardCombine",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shard_combine"
+    },
+    {
+      "name": "CoalCrush",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_crush"
+    },
+    {
+      "name": "CombineCoal",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combine_coal"
+    },
+    {
+      "name": "CoalFragments",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_fragments"
+    },
+    {
+      "name": "CharcoalToCoal",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_to_coal"
+    },
+    {
+      "name": "AnimalBlood",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animal_blood"
+    },
+    {
+      "name": "Syringe",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe"
+    },
+    {
+      "name": "MetalStick",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_stick"
+    },
+    {
+      "name": "MetalStickRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_stick_recipe"
+    },
+    {
+      "name": "MetalStickTag",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_stick_tag"
+    },
+    {
+      "name": "SyringeExtractBlood",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_extract_blood",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vial",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vial"
+    },
+    {
+      "name": "VialRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vial_recipe"
+    },
+    {
+      "name": "VillagerBlood",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_blood"
+    },
+    {
+      "name": "CoalFragment",
+      "type": "itemextension",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_fragment"
+    },
+    {
+      "name": "Teleporter",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter"
+    },
+    {
+      "name": "TeleporterRemote",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_remote"
+    },
+    {
+      "name": "TPR_BlockClick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpr_block_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleporterGui",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_gui"
+    },
+    {
+      "name": "TeleporterGuiOpen",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_gui_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleporterParticleActive",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_particle_active",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleporterParticle",
+      "type": "particle",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_particle"
+    },
+    {
+      "name": "TeleporterUpdateTick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeamCollisionBlockType1",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "team_collision_block_type_1"
+    },
+    {
+      "name": "ColBlockShears1",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "col_block_shears_1"
+    },
+    {
+      "name": "RedTeamArmor",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RedTeamArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_armor_helmet_recipe"
+    },
+    {
+      "name": "RedTeamArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_armor_body_recipe"
+    },
+    {
+      "name": "RedTeamArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_armor_leggings_recipe"
+    },
+    {
+      "name": "RedTeamArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_armor_boots_recipe"
+    },
+    {
+      "name": "TCBType1UT",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tcb_type_1_ut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedTeamDoor",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_door"
+    },
+    {
+      "name": "RTDRightClick",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rtd_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RTDAdded",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rtd_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedTeamDoorBottom",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_team_door_bottom"
+    },
+    {
+      "name": "RTD2RightClick",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rtd_2_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConveyorBeltEntityOnBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_belt_entity_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConveyorBelt",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_belt"
+    },
+    {
+      "name": "TeleporterValue",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_value",
+      "metadata": {
+        "return_type": "number",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleporterRemoteGlow",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_remote_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wire",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire"
+    },
+    {
+      "name": "WireRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire_recipe"
+    },
+    {
+      "name": "MachineBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block"
+    },
+    {
+      "name": "MachineBlockRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block_recipe"
+    },
+    {
+      "name": "ConveyorRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_recipe"
+    },
+    {
+      "name": "ColBlockRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "col_block_recipe"
+    },
+    {
+      "name": "ColshearsRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colshears_recipe"
+    },
+    {
+      "name": "TeleporterRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_recipe"
+    },
+    {
+      "name": "TeleporterRemoteRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleporter_remote_recipe"
+    },
+    {
+      "name": "Fuse",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuse"
+    },
+    {
+      "name": "FuseRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuse_recipe"
+    },
+    {
+      "name": "ConveyorBeltStair",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_belt_stair"
+    },
+    {
+      "name": "DebugTool",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_tool"
+    },
+    {
+      "name": "UpIdGen",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "up_id_gen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugGetUpID",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_get_up_id",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugGetEntityUpID",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_get_entity_up_id",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugGetOwnerUpID",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_get_owner_up_id",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConveyorStairRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_stair_recipe"
+    },
+    {
+      "name": "ResetUpId",
+      "type": "command",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_up_id"
+    },
+    {
+      "name": "ModifyData",
+      "type": "command",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modify_data"
+    },
+    {
+      "name": "Wrench",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench"
+    },
+    {
+      "name": "OwnedBlockPlaced",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owned_block_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModifyEntityDataProced",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modify_entity_data_proced",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModifyBlockDataProced",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modify_block_data_proced",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConveyorBeltStairUp",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_belt_stair_up"
+    },
+    {
+      "name": "ConveyorBeltEntityUp",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conveyor_belt_entity_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenGui",
+      "type": "command",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui"
+    },
+    {
+      "name": "OpenGuiProced",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_proced",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WrenchAbilitySelect",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_ability_select",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WrenchAbility",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_ability",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wrenchtag",
+      "type": "tag",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchtag"
+    },
+    {
+      "name": "OxySuit",
+      "type": "armor",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxy_suit",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "OxySuitEq",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxy_suit_eq",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompressingOxygen",
+      "type": "enchantment",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressing_oxygen"
+    },
+    {
+      "name": "OxygenHudTOF",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxygen_hud_tof",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OxyOverlay",
+      "type": "overlay",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oxy_overlay"
+    },
+    {
+      "name": "Drill",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill"
+    },
+    {
+      "name": "DrillUsagePowerloss",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_usage_powerloss",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrillInitialCharge",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_initial_charge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Saw",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saw"
+    },
+    {
+      "name": "AutoShovel",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_shovel"
+    },
+    {
+      "name": "DrillRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_recipe"
+    },
+    {
+      "name": "SawRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saw_recipe"
+    },
+    {
+      "name": "AutoShovelRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_shovel_recipe"
+    },
+    {
+      "name": "WrenchRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_recipe"
+    },
+    {
+      "name": "DrillRefuel",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_refuel"
+    },
+    {
+      "name": "SawRefuel",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saw_refuel"
+    },
+    {
+      "name": "AutoShovelRefuel",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_shovel_refuel"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough"
+    },
+    {
+      "name": "Doughcooking",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doughcooking"
+    },
+    {
+      "name": "Doughcreation",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doughcreation"
+    },
+    {
+      "name": "BearTrap",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bear_trap"
+    },
+    {
+      "name": "BearTrapEntityActivate",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bear_trap_entity_activate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BearTrapClosed",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bear_trap_closed"
+    },
+    {
+      "name": "BearTrapReset",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bear_trap_reset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stun",
+      "type": "potion",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun"
+    },
+    {
+      "name": "StunEffect",
+      "type": "potioneffect",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_effect"
+    },
+    {
+      "name": "StunEffectTick",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stun_effect_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Coord1",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Coord2",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Coord3",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Coord4",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Coord5",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Coord6",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "UPID",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Oxygen",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Pressure",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.kuros_tools.villager_blood": "Villager Blood",
+      "item.kuros_tools.wire": "Wire",
+      "item.kuros_tools.drill": "Drill",
+      "item.kuros_tools.red_team_armor_leggings": "Red Team Leggings",
+      "item.kuros_tools.rocks": "Rocks",
+      "item.kuros_tools.metal_stick": "Metal Stick",
+      "item.kuros_tools.teleporter_remote": "Teleporter Remote",
+      "item.kuros_tools.animal_blood": "Animal Blood",
+      "block.kuros_tools.conveyor_belt_stair_up": "Upwards Conveyor",
+      "block.kuros_tools.team_collision_block_type_1": "Red Team Block",
+      "item.kuros_tools.syringe": "Syringe",
+      "item.kuros_tools.obsidian_axe": "Obsidian Axe",
+      "item.kuros_tools.fuse": "Fuse",
+      "block.kuros_tools.teleporter": "Teleporter",
+      "item.kuros_tools.vial": "Vial",
+      "item.kuros_tools.crushed_diamond_ore": "Crushed Diamond Ore",
+      "item.kuros_tools.crushed_gold_ore": "Crushed Iron Ore",
+      "item.kuros_tools.oxy_suit_chestplate": "Body Oxy-Suit ",
+      "item.kuros_tools.wrench": "Wrench",
+      "block.kuros_tools.red_team_door": "Red Team Door",
+      "block.kuros_tools.conveyor_belt_stair": "Conveyor Belt",
+      "item.kuros_tools.diamond_shards": "Diamond Shards",
+      "item.kuros_tools.oxy_suit_boots": "Oxy Suit Boots",
+      "item.kuros_tools.red_team_armor_helmet": "Red Team Helmet",
+      "item.kuros_tools.oxy_suit_helmet": "Oxy-Suit Helmet",
+      "item.kuros_tools.stone_dust": "Stone Dust",
+      "item.kuros_tools.crushed_iron_ore": "Crushed Iron Ore",
+      "item.minecraft.potion.effect.stun": "Potion of Stunning",
+      "item.kuros_tools.red_team_armor_chestplate": "Red Team Chestplate",
+      "enchantment.kuros_tools.compressing_oxygen": "Pressure Tolerance",
+      "effect.stun_effect": "Stun",
+      "item.minecraft.splash_potion.effect.stun": "Splash Potion of Stunning",
+      "item.minecraft.lingering_potion.effect.stun": "Lingering Potion of Stunning",
+      "block.kuros_tools.conveyor_belt": "Conveyor Belt",
+      "block.kuros_tools.bear_trap": "Bear Trap",
+      "block.kuros_tools.separator": "Separator",
+      "item.kuros_tools.crushed_emerald_ore": "Crushed Diamond Ore",
+      "item.minecraft.tipped_arrow.effect.stun": "Arrow of Stunning",
+      "item.kuros_tools.oxy_suit_leggings": "Oxy Suit Leggings",
+      "item.kuros_tools.obsidian_hammer": "Obsidian Hammer",
+      "block.kuros_tools.red_team_door_bottom": "Red Team Door",
+      "item.kuros_tools.saw": "Saw",
+      "block.kuros_tools.machine_block": "Machine Block",
+      "item.kuros_tools.debug_tool": "Debug Tool",
+      "item.kuros_tools.red_team_armor_boots": "Red Team Boots",
+      "item.kuros_tools.obsidian_pickaxe": "Obsidian Pickaxe",
+      "item.kuros_tools.dough": "Dough",
+      "item.kuros_tools.coal_fragments": "Coal Fragments",
+      "item.kuros_tools.col_block_shears_1": "Red Team Shears",
+      "item.kuros_tools.obsidian_shovel": "Obsidian Shovel",
+      "block.kuros_tools.bear_trap_closed": "Bear Trap",
+      "item.kuros_tools.emerald_shards": "Emerald Shards",
+      "item.kuros_tools.auto_shovel": "AutoShovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kuros_tools",
+    "modName": "Kuro\u0027s Tools",
+    "version": "1.0.0",
+    "author": "Forge, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.kurostools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

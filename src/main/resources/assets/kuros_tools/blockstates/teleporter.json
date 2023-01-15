@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kuros_tools:block/teleporter"
+    },
+    "facing=east": {
+      "model": "kuros_tools:block/teleporter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kuros_tools:block/teleporter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kuros_tools:block/teleporter",
+      "y": 270
+    }
+  }
+}

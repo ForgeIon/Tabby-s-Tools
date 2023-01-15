@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kuros_tools:blocks/machineblocktop",
+    "up": "kuros_tools:blocks/arrow",
+    "north": "kuros_tools:blocks/machineblockside",
+    "east": "kuros_tools:blocks/machineblocktop",
+    "south": "kuros_tools:blocks/machineblockside",
+    "west": "kuros_tools:blocks/machineblocktop",
+    "particle": "kuros_tools:blocks/machineblocktop"
+  }
+}

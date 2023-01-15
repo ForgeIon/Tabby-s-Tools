@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:wheat"
+    },
+    "4": {
+      "item": "minecraft:wheat"
+    },
+    "5": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:dough",
+    "count": 9
+  }
+}

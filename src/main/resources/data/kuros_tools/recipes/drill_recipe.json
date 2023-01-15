@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:emerald_block"
+    },
+    "2": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "3": {
+      "item": "kuros_tools:wire"
+    },
+    "4": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "5": {
+      "item": "minecraft:emerald_block"
+    },
+    "6": {
+      "item": "kuros_tools:metal_stick"
+    },
+    "7": {
+      "item": "kuros_tools:fuse"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:drill",
+    "count": 1
+  }
+}

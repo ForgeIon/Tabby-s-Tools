@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidian_tool",
+    "customModelName": "Normal",
+    "name": "Obsidian Hammer",
+    "specialInfo": [
+      "A hammer made of obsidian."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 1600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.CRYING_OBSIDIAN"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onRightClickedOnBlock": {
+      "name": "HammerRightClick"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "HammerFunction"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:Oxygen>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OxygenHudTOF"
+          },
+          "name": "<VAR:integer:Oxygen>",
+          "x": 304,
+          "y": 228
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Oxygen",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OxygenHudTOF"
+          },
+          "name": "Oxygen",
+          "x": 304,
+          "y": 219
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Depth",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OxygenHudTOF"
+          },
+          "name": "Depth",
+          "x": 96,
+          "y": 219
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Pressure>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "OxygenHudTOF"
+          },
+          "name": "<VAR:Pressure>",
+          "x": 24,
+          "y": 229
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

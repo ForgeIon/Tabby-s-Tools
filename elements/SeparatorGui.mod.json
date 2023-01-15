@@ -1,0 +1,214 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SeparatorProced"
+          },
+          "onTakenFromSlot": {
+            "name": "SeparatorProced"
+          },
+          "name": "Slot #0",
+          "x": 131,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SeparatorProced"
+          },
+          "name": "Slot #1",
+          "x": 258,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SeparatorProced"
+          },
+          "name": "Slot #2",
+          "x": 258,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 195,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowsplit.png",
+          "use1Xscale": false,
+          "name": "arrowsplit.png",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 213,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowshaftgui.png",
+          "use1Xscale": false,
+          "name": "arrowshaftgui.png",
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowpoint.png",
+          "use1Xscale": false,
+          "name": "arrowpoint.png",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowpointconnecter.png",
+          "use1Xscale": false,
+          "name": "arrowpointconnecter.png",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Process",
+          "onClick": {
+            "name": "SeparatorProced"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Process",
+          "x": 177,
+          "y": 53
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

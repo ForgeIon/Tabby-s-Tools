@@ -1,0 +1,49 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "wrench",
+    "customModelName": "Normal",
+    "name": "Wrench",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 24.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:Separator"
+      },
+      {
+        "value": "CUSTOM:Teleporter"
+      },
+      {
+        "value": "CUSTOM:ConveyorBelt"
+      },
+      {
+        "value": "CUSTOM:MachineBlock"
+      },
+      {
+        "value": "CUSTOM:ConveyorBeltStair"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "WrenchAbilitySelect"
+    },
+    "onRightClickedOnBlock": {
+      "name": "WrenchAbility"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 180,
+    "height": 44,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Warning, Not Active!",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Warning, Not Active!",
+          "x": 159,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Please Bind System To Teleport!",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Please Bind System To Teleport!",
+          "x": 132,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 14,
+      "snapOnGrid": true
+    }
+  }
+}

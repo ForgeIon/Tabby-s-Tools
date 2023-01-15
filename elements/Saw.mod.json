@@ -1,0 +1,39 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "powertool",
+    "customModelName": "Normal",
+    "name": "Saw",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 11.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "DrillInitialCharge"
+    },
+    "onEntityHitWith": {
+      "name": "DrillUsagePowerloss"
+    },
+    "onItemInUseTick": {
+      "name": "DrillInitialCharge"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "DrillUsagePowerloss"
+    }
+  }
+}

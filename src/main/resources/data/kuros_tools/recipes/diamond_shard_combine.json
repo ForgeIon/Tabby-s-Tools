@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kuros_tools:diamond_shards"
+    },
+    {
+      "item": "kuros_tools:diamond_shards"
+    },
+    {
+      "item": "kuros_tools:diamond_shards"
+    },
+    {
+      "item": "kuros_tools:diamond_shards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

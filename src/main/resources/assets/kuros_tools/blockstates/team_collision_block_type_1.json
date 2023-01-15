@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kuros_tools:block/team_collision_block_type_1"
+    }
+  }
+}

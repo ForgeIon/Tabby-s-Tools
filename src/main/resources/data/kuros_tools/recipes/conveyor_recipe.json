@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "kuros_tools:machine_block"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "kuros_tools:wire"
+    },
+    "7": {
+      "item": "kuros_tools:fuse"
+    },
+    "8": {
+      "item": "kuros_tools:wire"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:conveyor_belt",
+    "count": 2
+  }
+}

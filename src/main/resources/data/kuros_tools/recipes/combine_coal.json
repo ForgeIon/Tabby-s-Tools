@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kuros_tools:coal_fragments"
+    },
+    {
+      "item": "kuros_tools:coal_fragments"
+    },
+    {
+      "item": "kuros_tools:coal_fragments"
+    },
+    {
+      "item": "kuros_tools:coal_fragments"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

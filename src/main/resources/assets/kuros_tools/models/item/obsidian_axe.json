@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kuros_tools:items/obsidian_axe"
+  }
+}

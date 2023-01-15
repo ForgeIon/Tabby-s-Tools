@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kuros_tools:block/machine_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kuros_tools:block/machine_block"
+    },
+    "axis=z": {
+      "model": "kuros_tools:block/machine_block",
+      "x": 90
+    }
+  }
+}

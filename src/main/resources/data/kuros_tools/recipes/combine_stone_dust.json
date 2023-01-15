@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kuros_tools:stone_dust"
+    },
+    {
+      "item": "kuros_tools:stone_dust"
+    }
+  ],
+  "result": {
+    "item": "kuros_tools:rocks",
+    "count": 2
+  }
+}

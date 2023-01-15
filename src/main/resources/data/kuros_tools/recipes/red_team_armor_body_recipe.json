@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "2": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "3": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "4": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "5": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "6": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "7": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "8": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:red_team_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:shears"
+    },
+    "3": {
+      "item": "kuros_tools:team_collision_block_type_1"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:col_block_shears_1",
+    "count": 1
+  }
+}

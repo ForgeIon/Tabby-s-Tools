@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kuros_tools:block/conveyor_belt"
+    },
+    "facing=east": {
+      "model": "kuros_tools:block/conveyor_belt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kuros_tools:block/conveyor_belt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kuros_tools:block/conveyor_belt",
+      "y": 270
+    }
+  }
+}

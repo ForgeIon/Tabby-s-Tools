@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ender_pearl"
+    },
+    "1": {
+      "item": "kuros_tools:wire"
+    },
+    "2": {
+      "item": "minecraft:ender_pearl"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "kuros_tools:machine_block"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "kuros_tools:fuse"
+    },
+    "7": {
+      "tag": "forge:ores/quartz"
+    },
+    "8": {
+      "item": "kuros_tools:fuse"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:teleporter",
+    "count": 1
+  }
+}

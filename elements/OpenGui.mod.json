@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "open_gui",
+    "permissionLevel": "2",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"number_min\"><field name=\"name\">SelectedGui</field><field name=\"min\">1</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">OpenGuiProced</field></block></statement></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kuros_tools:conveyor_belt"
+    },
+    "2": {
+      "item": "kuros_tools:machine_block"
+    },
+    "3": {
+      "item": "kuros_tools:conveyor_belt"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:conveyor_belt_stair",
+    "count": 3
+  }
+}

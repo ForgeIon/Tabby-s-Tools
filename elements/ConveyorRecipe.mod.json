@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:MachineBlock"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:Wire"
+      },
+      {
+        "value": "CUSTOM:Fuse"
+      },
+      {
+        "value": "CUSTOM:Wire"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConveyorBelt"
+    },
+    "name": "conveyor_recipe",
+    "namespace": "mod"
+  }
+}
