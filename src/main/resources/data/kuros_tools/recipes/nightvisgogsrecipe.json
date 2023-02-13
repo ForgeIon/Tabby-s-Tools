@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "3": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "4": {
+      "item": "minecraft:golden_carrot"
+    },
+    "5": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "7": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:night_vision_goggles_helmet",
+    "count": 1
+  }
+}

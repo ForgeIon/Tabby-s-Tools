@@ -1686,6 +1686,142 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spring"
+    },
+    {
+      "name": "MechanicalArmor",
+      "type": "armor",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MechanicalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor_helmet_recipe"
+    },
+    {
+      "name": "MechanicalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor_body_recipe"
+    },
+    {
+      "name": "MechanicalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor_leggings_recipe"
+    },
+    {
+      "name": "MechanicalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor_boots_recipe"
+    },
+    {
+      "name": "MechanicalArmorLock",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanical_armor_lock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulLock",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_lock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmorLockEffects",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_lock_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightVisGogsTick",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vis_gogs_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightVisionGoggles",
+      "type": "armor",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_goggles",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Nightvisgogsrecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvisgogsrecipe"
     }
   ],
   "variable_elements": [
@@ -1749,9 +1885,11 @@
     "en_us": {
       "item.kuros_tools.villager_blood": "Villager Blood",
       "item.kuros_tools.wire": "Wire",
+      "item.kuros_tools.mechanical_armor_leggings": "Mechanical Leggings",
       "item.kuros_tools.drill": "Drill",
       "item.kuros_tools.red_team_armor_leggings": "Red Team Leggings",
       "item.kuros_tools.rocks": "Rocks",
+      "item.kuros_tools.night_vision_goggles_leggings": "",
       "item.kuros_tools.metal_stick": "Metal Stick",
       "item.kuros_tools.teleporter_remote": "Teleporter Remote",
       "item.kuros_tools.animal_blood": "Animal Blood",
@@ -1769,12 +1907,16 @@
       "block.kuros_tools.red_team_door": "Red Team Door",
       "block.kuros_tools.conveyor_belt_stair": "Conveyor Belt",
       "item.kuros_tools.diamond_shards": "Diamond Shards",
+      "item.kuros_tools.mechanical_armor_boots": "Mechanical Boots",
       "item.kuros_tools.oxy_suit_boots": "Oxy Suit Boots",
+      "item.kuros_tools.night_vision_goggles_chestplate": "",
       "item.kuros_tools.red_team_armor_helmet": "Red Team Helmet",
       "item.kuros_tools.oxy_suit_helmet": "Oxy-Suit Helmet",
+      "item.kuros_tools.mechanical_armor_chestplate": "Mechanical Chestplate",
       "item.kuros_tools.stone_dust": "Stone Dust",
       "item.kuros_tools.crushed_iron_ore": "Crushed Iron Ore",
       "item.minecraft.potion.effect.stun": "Potion of Stunning",
+      "item.kuros_tools.mechanical_armor_helmet": "Mechanical Helmet",
       "item.kuros_tools.red_team_armor_chestplate": "Red Team Chestplate",
       "enchantment.kuros_tools.compressing_oxygen": "Pressure Tolerance",
       "effect.stun_effect": "Stun",
@@ -1795,6 +1937,8 @@
       "item.kuros_tools.red_team_armor_boots": "Red Team Boots",
       "item.kuros_tools.obsidian_pickaxe": "Obsidian Pickaxe",
       "item.kuros_tools.dough": "Dough",
+      "item.kuros_tools.night_vision_goggles_helmet": "Night Vision goggles",
+      "item.kuros_tools.night_vision_goggles_boots": "",
       "item.kuros_tools.coal_fragments": "Coal Fragments",
       "item.kuros_tools.col_block_shears_1": "Red Team Shears",
       "item.kuros_tools.obsidian_shovel": "Obsidian Shovel",

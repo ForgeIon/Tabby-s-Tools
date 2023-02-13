@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "kuros_tools:machine_block"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:mechanical_armor_helmet",
+    "count": 1
+  }
+}
