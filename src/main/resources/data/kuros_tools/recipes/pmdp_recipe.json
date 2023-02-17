@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "kuros_tools:wire"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:lava_bucket"
+    },
+    "4": {
+      "item": "kuros_tools:teleporter_remote"
+    },
+    "5": {
+      "item": "minecraft:nether_bricks"
+    },
+    "6": {
+      "item": "minecraft:dirt"
+    },
+    "7": {
+      "item": "kuros_tools:fuse"
+    },
+    "8": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:portable_mining_dimension_portal",
+    "count": 1
+  }
+}

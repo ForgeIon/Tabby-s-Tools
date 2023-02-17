@@ -1,0 +1,7 @@
+{
+  "_fv": 33,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text_join\"><mutation items=\"8\"></mutation><value name=\"ADD0\"><block type=\"text\"><field name=\"TEXT\">Main Dev: </field></block></value><value name=\"ADD1\"><block type=\"text\"><field name=\"TEXT\">Tabbycat/Kuro/Emily</field></block></value><value name=\"ADD2\"><block type=\"text\"><field name=\"TEXT\">, </field></block></value><value name=\"ADD3\"><block type=\"text\"><field name=\"TEXT\">Main Pixel Artists: </field></block></value><value name=\"ADD4\"><block type=\"text\"><field name=\"TEXT\">Tabbycat/Kuro/Emily</field></block></value><value name=\"ADD5\"><block type=\"text\"><field name=\"TEXT\">, </field></block></value><value name=\"ADD6\"><block type=\"text\"><field name=\"TEXT\">Main Sound Design</field></block></value><value name=\"ADD7\"><block type=\"text\"><field name=\"TEXT\">[None Found]</field></block></value></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></xml>"
+  }
+}
