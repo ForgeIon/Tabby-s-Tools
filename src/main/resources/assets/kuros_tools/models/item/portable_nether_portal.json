@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kuros_tools:items/pixil-frame-0"
+    "layer0": "kuros_tools:items/hellteleporter"
   }
 }

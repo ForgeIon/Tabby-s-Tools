@@ -1765,6 +1765,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1822,6 +1838,137 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nightvisgogsrecipe"
+    },
+    {
+      "name": "PortableOverworldPortalUsage",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_overworld_portal_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortableOverworldPortal",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_overworld_portal"
+    },
+    {
+      "name": "PortableNetherPortal",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_nether_portal"
+    },
+    {
+      "name": "PortableNetherPortalUsage",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_nether_portal_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiningDimension",
+      "type": "dimension",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_dimension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "PortableMiningDimensionPortal",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_mining_dimension_portal"
+    },
+    {
+      "name": "PortableMiningDimensionPortalUsage",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_mining_dimension_portal_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "POPRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pop_recipe"
+    },
+    {
+      "name": "PNPRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pnp_recipe"
+    },
+    {
+      "name": "PMDPRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pmdp_recipe"
+    },
+    {
+      "name": "CreditsRightclicked",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Credits",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits"
     }
   ],
   "variable_elements": [
@@ -1892,12 +2039,15 @@
       "item.kuros_tools.night_vision_goggles_leggings": "",
       "item.kuros_tools.metal_stick": "Metal Stick",
       "item.kuros_tools.teleporter_remote": "Teleporter Remote",
+      "item.kuros_tools.credits": "Credits",
       "item.kuros_tools.animal_blood": "Animal Blood",
       "block.kuros_tools.conveyor_belt_stair_up": "Upwards Conveyor",
       "block.kuros_tools.team_collision_block_type_1": "Red Team Block",
       "item.kuros_tools.syringe": "Syringe",
+      "item.kuros_tools.mining_dimension": "Mining Dimension Portal Igniter",
       "item.kuros_tools.obsidian_axe": "Obsidian Axe",
       "item.kuros_tools.fuse": "Fuse",
+      "item.kuros_tools.portable_mining_dimension_portal": "Portable Mining Dimension Portal",
       "block.kuros_tools.teleporter": "Teleporter",
       "item.kuros_tools.vial": "Vial",
       "item.kuros_tools.crushed_diamond_ore": "Crushed Diamond Ore",
@@ -1918,6 +2068,7 @@
       "item.minecraft.potion.effect.stun": "Potion of Stunning",
       "item.kuros_tools.mechanical_armor_helmet": "Mechanical Helmet",
       "item.kuros_tools.red_team_armor_chestplate": "Red Team Chestplate",
+      "item.kuros_tools.portable_overworld_portal": "Portable Overworld Portal",
       "enchantment.kuros_tools.compressing_oxygen": "Pressure Tolerance",
       "effect.stun_effect": "Stun",
       "item.minecraft.splash_potion.effect.stun": "Splash Potion of Stunning",
@@ -1931,6 +2082,7 @@
       "item.kuros_tools.oxy_suit_leggings": "Oxy Suit Leggings",
       "item.kuros_tools.obsidian_hammer": "Obsidian Hammer",
       "block.kuros_tools.red_team_door_bottom": "Red Team Door",
+      "item.kuros_tools.portable_nether_portal": "Portable Nether Portal",
       "item.kuros_tools.saw": "Saw",
       "block.kuros_tools.machine_block": "Machine Block",
       "item.kuros_tools.debug_tool": "Debug Tool",

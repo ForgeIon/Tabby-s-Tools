@@ -3,43 +3,45 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pixil-frame-0",
+    "texture": "miningdimteleporter",
     "customModelName": "Normal",
-    "name": "Syringe",
-    "rarity": "COMMON",
+    "name": "Portable Mining Dimension Portal",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "TOOLS"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 60,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Teleports you to a custom mining dimension."
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "SyringeExtractBlood"
+    "onStoppedUsing": {
+      "name": "PortableMiningDimensionPortalUsage"
     },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:PortableMiningDimensionPortal"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "eat"
+    "isAlwaysEdible": true,
+    "animation": "none"
   }
 }

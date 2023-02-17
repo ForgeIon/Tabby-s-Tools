@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "kuros_tools:wire"
+    },
+    "3": {
+      "item": "minecraft:water_bucket"
+    },
+    "4": {
+      "item": "kuros_tools:teleporter_remote"
+    },
+    "5": {
+      "item": "minecraft:dirt"
+    },
+    "7": {
+      "item": "kuros_tools:fuse"
+    }
+  },
+  "result": {
+    "item": "kuros_tools:portable_overworld_portal",
+    "count": 1
+  }
+}

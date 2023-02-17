@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:Wire"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:TeleporterRemote"
+      },
+      {
+        "value": "Blocks.NETHER_BRICK"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "CUSTOM:Fuse"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PortableMiningDimensionPortal"
+    },
+    "name": "pmdp_recipe",
+    "namespace": "mod"
+  }
+}
