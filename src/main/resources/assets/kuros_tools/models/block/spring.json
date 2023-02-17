@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kuros_tools:blocks/missingtexture",
-    "particle": "kuros_tools:blocks/missingtexture"
-  }
-}

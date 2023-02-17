@@ -1669,25 +1669,6 @@
       }
     },
     {
-      "name": "SpringUpdateTick",
-      "type": "procedure",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spring_update_tick",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "Spring",
-      "type": "block",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spring"
-    },
-    {
       "name": "MechanicalArmor",
       "type": "armor",
       "sortid": 129,
@@ -1926,7 +1907,6 @@
       "block.kuros_tools.bear_trap": "Bear Trap",
       "block.kuros_tools.separator": "Separator",
       "item.kuros_tools.crushed_emerald_ore": "Crushed Diamond Ore",
-      "block.kuros_tools.spring": "Spring",
       "item.minecraft.tipped_arrow.effect.stun": "Arrow of Stunning",
       "item.kuros_tools.oxy_suit_leggings": "Oxy Suit Leggings",
       "item.kuros_tools.obsidian_hammer": "Obsidian Hammer",
