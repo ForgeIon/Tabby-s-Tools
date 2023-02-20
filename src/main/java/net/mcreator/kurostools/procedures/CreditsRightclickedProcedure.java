@@ -19,7 +19,7 @@ public class CreditsRightclickedProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(("Main Dev: " + "Tabbycat/Kuro/Emily" + ", " + "Main Pixel Artists: "
-					+ "Tabbycat/Kuro/Emily" + ", " + "Main Sound Design" + "[None Found]")), (false));
+					+ "T/K/E And AshleyPup" + ", " + "Main Sound Design " + "[None Found]")), (false));
 		}
 	}
 }

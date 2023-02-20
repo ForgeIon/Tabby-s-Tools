@@ -14,14 +14,16 @@
       "name": "NightVisGogsTick"
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "armorTextureFile": "missingtext",
     "helmetName": "Night Vision goggles",
     "bodyName": "",
     "leggingsName": "",
     "bootsName": "",
-    "helmetSpecialInfo": [],
+    "helmetSpecialInfo": [
+      "Goggles that give you Night Vision."
+    ],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
     "bootsSpecialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "missingtexture",
+    "texture": "dough",
     "customModelName": "Normal",
     "name": "Dough",
     "rarity": "COMMON",
