@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kuros_tools:items/missingtext_body"
+    "layer0": "kuros_tools:items/oxygen_tank_with_tubes"
   }
 }

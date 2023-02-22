@@ -58,8 +58,8 @@ public class SyringeExtractBloodProcedure {
 				}
 				if ((entity instanceof LivingEntity ? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.WATER) : false) == true) {
 					if (sourceentity instanceof PlayerEntity && !sourceentity.world.isRemote()) {
-						((PlayerEntity) sourceentity).sendStatusMessage(new StringTextComponent(
-								"\u00A74Warning, Modification Currently does not have this entity configured for this entity."), (false));
+						((PlayerEntity) sourceentity).sendStatusMessage(
+								new StringTextComponent("\u00A74Warning, Modification Currently does not have this entity configured."), (false));
 					}
 				} else if ((entity instanceof LivingEntity
 						? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.ILLAGER)
@@ -79,15 +79,15 @@ public class SyringeExtractBloodProcedure {
 						? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.ARTHROPOD)
 						: false) == true) {
 					if (sourceentity instanceof PlayerEntity && !sourceentity.world.isRemote()) {
-						((PlayerEntity) sourceentity).sendStatusMessage(new StringTextComponent(
-								"\u00A74Warning, Modification Currently does not have this entity configured for this entity."), (false));
+						((PlayerEntity) sourceentity).sendStatusMessage(
+								new StringTextComponent("\u00A74Warning, Modification Currently does not have this entity configured."), (false));
 					}
 				} else if ((entity instanceof LivingEntity
 						? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.UNDEAD)
 						: false) == true) {
 					if (sourceentity instanceof PlayerEntity && !sourceentity.world.isRemote()) {
-						((PlayerEntity) sourceentity).sendStatusMessage(new StringTextComponent(
-								"\u00A74Warning, Modification Currently does not have this entity configured for this entity."), (false));
+						((PlayerEntity) sourceentity).sendStatusMessage(
+								new StringTextComponent("\u00A74Warning, Modification Currently does not have this entity configured."), (false));
 					}
 				} else if ((entity instanceof LivingEntity
 						? (((LivingEntity) entity).getCreatureAttribute() == CreatureAttribute.UNDEFINED)

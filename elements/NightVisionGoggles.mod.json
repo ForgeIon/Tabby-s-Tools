@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "missingtexture",
+    "textureHelmet": "night_vision_helmet",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,

@@ -1950,6 +1950,182 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "credits"
+    },
+    {
+      "name": "AntibioticsUsed",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antibiotics_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antibiotics",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antibiotics"
+    },
+    {
+      "name": "Cocaine",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine"
+    },
+    {
+      "name": "CocaineUsage",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Psilocybin",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psilocybin"
+    },
+    {
+      "name": "PsilocybinUsage",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psilocybin_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Methamphetamine",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine"
+    },
+    {
+      "name": "MethamphetamineUsage",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cannabis",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis"
+    },
+    {
+      "name": "CannabisUsage",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clorazepate",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clorazepate"
+    },
+    {
+      "name": "ClorazepateUsage",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clorazepate_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ecstasy",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecstasy"
+    },
+    {
+      "name": "EcstasyUsage",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecstasy_usage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KurosDrugs",
+      "type": "tab",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kuros_drugs"
     }
   ],
   "variable_elements": [
@@ -2013,20 +2189,22 @@
     "en_us": {
       "item.kuros_tools.villager_blood": "Villager Blood",
       "item.kuros_tools.wire": "Wire",
-      "item.kuros_tools.drill": "Drill",
       "item.kuros_tools.mechanical_armor_leggings": "Mechanical Leggings",
+      "item.kuros_tools.drill": "Drill",
       "item.kuros_tools.red_team_armor_leggings": "Red Team Leggings",
+      "item.kuros_tools.antibiotics": "Antibiotics",
       "item.kuros_tools.rocks": "Rocks",
       "item.kuros_tools.night_vision_goggles_leggings": "",
-      "item.kuros_tools.credits": "Credits",
-      "item.kuros_tools.teleporter_remote": "Teleporter Remote",
       "item.kuros_tools.metal_stick": "Metal Stick",
+      "item.kuros_tools.teleporter_remote": "Teleporter Remote",
+      "item.kuros_tools.credits": "Credits",
       "item.kuros_tools.animal_blood": "Animal Blood",
       "block.kuros_tools.conveyor_belt_stair_up": "Upwards Conveyor",
       "block.kuros_tools.team_collision_block_type_1": "Red Team Block",
       "item.kuros_tools.syringe": "Syringe",
       "item.kuros_tools.mining_dimension": "Mining Dimension Portal Igniter",
       "item.kuros_tools.obsidian_axe": "Obsidian Axe",
+      "item.kuros_tools.cocaine": "Cocaine",
       "item.kuros_tools.fuse": "Fuse",
       "item.kuros_tools.portable_mining_dimension_portal": "Portable Mining Dimension Portal",
       "block.kuros_tools.teleporter": "Teleporter",
@@ -2034,20 +2212,26 @@
       "item.kuros_tools.crushed_diamond_ore": "Crushed Diamond Ore",
       "item.kuros_tools.crushed_gold_ore": "Crushed Iron Ore",
       "item.kuros_tools.oxy_suit_chestplate": "Body Oxy-Suit ",
+      "item.kuros_tools.methamphetamine": "Methamphetamine",
       "item.kuros_tools.wrench": "Wrench",
+      "item.kuros_tools.psilocybin": "Psilocybin",
       "block.kuros_tools.red_team_door": "Red Team Door",
       "block.kuros_tools.conveyor_belt_stair": "Conveyor Belt",
+      "item.kuros_tools.ecstasy": "Ecstasy",
       "item.kuros_tools.diamond_shards": "Diamond Shards",
       "item.kuros_tools.mechanical_armor_boots": "Mechanical Boots",
-      "item.kuros_tools.oxy_suit_boots": "Oxy Suit Boots",
+      "item.kuros_tools.oxy_suit_boots": "{InvalidItem]",
       "item.kuros_tools.night_vision_goggles_chestplate": "",
+      "item.kuros_tools.cannabis": "Cannabis",
       "item.kuros_tools.red_team_armor_helmet": "Red Team Helmet",
       "item.kuros_tools.oxy_suit_helmet": "Oxy-Suit Helmet",
       "item.kuros_tools.mechanical_armor_chestplate": "Mechanical Chestplate",
       "item.kuros_tools.stone_dust": "Stone Dust",
+      "item.kuros_tools.clorazepate": "Clorazepate",
       "item.kuros_tools.crushed_iron_ore": "Crushed Iron Ore",
       "item.minecraft.potion.effect.stun": "Potion of Stunning",
       "item.kuros_tools.mechanical_armor_helmet": "Mechanical Helmet",
+      "itemGroup.tabkuros_drugs": "Kuro\u0027s Drugs",
       "item.kuros_tools.red_team_armor_chestplate": "Red Team Chestplate",
       "item.kuros_tools.portable_overworld_portal": "Portable Overworld Portal",
       "enchantment.kuros_tools.compressing_oxygen": "Pressure Tolerance",
@@ -2059,7 +2243,7 @@
       "block.kuros_tools.separator": "Separator",
       "item.kuros_tools.crushed_emerald_ore": "Crushed Diamond Ore",
       "item.minecraft.tipped_arrow.effect.stun": "Arrow of Stunning",
-      "item.kuros_tools.oxy_suit_leggings": "Oxy Suit Leggings",
+      "item.kuros_tools.oxy_suit_leggings": "{InvalidItem]",
       "item.kuros_tools.obsidian_hammer": "Obsidian Hammer",
       "block.kuros_tools.red_team_door_bottom": "Red Team Door",
       "item.kuros_tools.portable_nether_portal": "Portable Nether Portal",
